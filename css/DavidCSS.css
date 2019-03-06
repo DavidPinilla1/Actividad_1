@@ -1,13 +1,15 @@
 /* Aquí irán los estilos que añada David*/
 @font-face {
-    font-family: "glyphicons halflings regular";
+    /* font-family: "glyphicons halflings regular";
     src: url("../fonts/glyphicons-halflings-regular.eot");
     src: url("../fonts/glyphicons-halflings-regular.woff") format("woff"),
-    url("../fonts/glyphicons-halflings-regular.svg") format("svg");
-    }
-html{
-    
+    url("../fonts/glyphicons-halflings-regular.svg") format("svg");*/
+    } 
+
+body{
+  /* font-family:'GLYPHICONS Halflings' ; */
 }
+
 header{
   background-repeat: no-repeat;
   background-image: url('../images/back.jpeg');
@@ -34,3 +36,25 @@ nav li {
   .socialMedia{
 
   }
+  footer{
+    padding: 1em;
+    font-size: 1.5em;
+    color: white;
+    background-color: #141939;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0 auto;
+  }
+  footer .ayuda, .informacion,.suscribete{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  }
+footer button{
+  all:unset;
+  color: black;
+  background-color: #fef200;
+  font-size: 1.5em;
+  width: 70%
+}
