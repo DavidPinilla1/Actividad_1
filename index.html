@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/JanCSS.css">
-    <link rel="stylesheet" href="css/JoseAntonioCSS.css">
-    <link rel="stylesheet" href="css/DavidCSS.css">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/JanCSS.css"/>
+    <link rel="stylesheet" href="css/JoseAntonioCSS.css"/>
+    <link rel="stylesheet" href="css/DavidCSS.css"/>
     
     <title>Actividad_1</title>
 </head>
@@ -16,8 +16,8 @@
     <header>
         <nav>
             <ul>
-                <li>Destinos </li>
-                <li>Quién somos </li>
+                <li class="glyphicon glyphicon-comment">Destinos </li>
+                <li class="glyphicon glyphicon-comment">Quién somos </li>
                 <li>Donde estamos</li>
             </ul>
         </nav>
@@ -52,14 +52,37 @@
     </section>
 
 
-    <section>
+    <section class="contact">
+        <img src="./images/mapa.jpg" alt="mapa">
+        <div class="contactForm">
+        <p>
+                E:enquiry@geekshubstravels.com
+                <br>
+                P:0264 123 4567
+                <br><br>
+                Give us a call or drop by anytime,
+                we endeavour to answer all enquiries
+                within 24 hours on business days.
+                <br><br>
+                We are open from 8:30 AM - 4:00PM week days.</p>
+                <form method="post" >
 
+                        <input class="input" type="text" placeholder="Name*">
+                        <input type="email" placeholder="Email*">
+                        <br>
+                        <input type="number" placeholder="Phone">
+                        <input class="input" type="text" placeholder="Country">
+                        <br>
+                        <textarea name="Message" id="" cols="83" rows="8" placeholder="Message"></textarea>
+
+                </form>
+            </div>
     </section>
     
 
 
     <footer >
-        <div class="ayuda"><h3>¿NECESITAS AYUDA?</h3>
+        <div class="ayuda"><h3 >¿NECESITAS AYUDA?</h3>
             <br>
            <p>0264 123 4567
             <br>

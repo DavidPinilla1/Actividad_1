@@ -1,16 +1,19 @@
 /* Aquí irán los estilos que añada David*/
 @font-face {
-    /* font-family: "glyphicons halflings regular";
-    src: url("../fonts/glyphicons-halflings-regular.eot");
-    src: url("../fonts/glyphicons-halflings-regular.woff") format("woff"),
-    url("../fonts/glyphicons-halflings-regular.svg") format("svg");*/
-    } 
-
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+   url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+   url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
 body{
-  /* font-family:'GLYPHICONS Halflings' ; */
+  font-family: 'Arial';
+  line-height: 1.6;
 }
 
 header{
+  height: 32em;
   background-repeat: no-repeat;
   background-image: url('../images/back.jpeg');
 }
@@ -36,9 +39,35 @@ nav li {
   .socialMedia{
 
   }
+  .contact{
+    display: flex;
+    flex-direction: row;
+    background-color: #fcfcfc;
+    padding: 4em 0 6em 1.4em
+  }
+  .contact img{
+    margin-left: 9.5em;
+    display: block;
+  }
+  .contactForm{
+    padding: 0 0 0 4em;
+    flex-wrap: wrap;
+  }
+  .contactForm input{
+    font-size: 0.8em;
+    margin: 0.6em;
+    width: 40%;
+    padding: 0.6em;
+  } .contactForm textarea{
+    font-size: 0.8em;
+    margin: 0.6em;
+    padding: 0.8em;
+    width: 83%;
+  }
+  /*------- Footer---------*/
   footer{
     padding: 1.5em;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: white;
     background-color: #141939;
     display: flex;
@@ -52,14 +81,14 @@ nav li {
   margin: 0 auto;
   }
   .ayuda{
-    padding-left: 8em;
+    padding-left: 9.5em;
   }
   .ayuda p{
     padding-left: 0.8em;
   }
   .horario{
     padding-top: 2em;
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
   footer input{
     font-size: 0.6em;
@@ -71,6 +100,6 @@ footer button{
   color: black;
   background-color: #fef200;
   font-size: 1.3em;
-  width: 51%;
+  width: 53%;
   padding:0.4em 0.1em 0.4em 0.1em;
 }
