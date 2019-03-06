@@ -37,7 +37,7 @@ nav li {
 
   }
   footer{
-    padding: 1em;
+    padding: 1.5em;
     font-size: 1.5em;
     color: white;
     background-color: #141939;
@@ -51,10 +51,26 @@ nav li {
   flex-direction: column;
   margin: 0 auto;
   }
+  .ayuda{
+    padding-left: 8em;
+  }
+  .ayuda p{
+    padding-left: 0.8em;
+  }
+  .horario{
+    padding-top: 2em;
+    font-size: 0.6em;
+  }
+  footer input{
+    font-size: 0.6em;
+    padding: 0.5em;
+    width: 80%;
+  }
 footer button{
   all:unset;
   color: black;
   background-color: #fef200;
-  font-size: 1.5em;
-  width: 70%
+  font-size: 1.3em;
+  width: 51%;
+  padding:0.4em 0.1em 0.4em 0.1em;
 }
