@@ -1,1 +1,26 @@
 /* Aquí irán los estilos que añada David*/
+
+header{
+  background-repeat: no-repeat;
+  background-image: url('../images/back.jpeg');
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    list-style-type: none;
+  }
+nav li {
+    font-size: 1.6em;
+    color: white;
+    display: inline-block;
+    margin-left: 45px;
+    padding-top: 20px;
+    list-style: none;
+    position: relative;
+  }
+  .socialMedia{
+
+  }
