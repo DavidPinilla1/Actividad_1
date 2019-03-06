@@ -1,5 +1,13 @@
 /* Aquí irán los estilos que añada David*/
-
+@font-face {
+    font-family: "glyphicons halflings regular";
+    src: url("../fonts/glyphicons-halflings-regular.eot");
+    src: url("../fonts/glyphicons-halflings-regular.woff") format("woff"),
+    url("../fonts/glyphicons-halflings-regular.svg") format("svg");
+    }
+html{
+    
+}
 header{
   background-repeat: no-repeat;
   background-image: url('../images/back.jpeg');
@@ -13,6 +21,8 @@ nav ul {
     list-style-type: none;
   }
 nav li {
+    font-family:;
+    font-style: italic;
     font-size: 1.6em;
     color: white;
     display: inline-block;
