@@ -2,8 +2,19 @@
 /* ya estoy aquí wey */
 .micro{
     background-size: cover;
-    
-    
     background-image: url('../images/travel_3.jpg');
     height: 500px;
+    padding:50px; 
 }
+.quien{
+    background-color: whitesmoke;
+    padding:20px;
+    
+    width:30%;
+    height: 400px;
+  }
+.raya{
+    border: 5px inset yellow;
+    height: 5px;
+      width:70%;
+  }
