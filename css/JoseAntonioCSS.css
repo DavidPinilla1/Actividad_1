@@ -1,2 +1,9 @@
 /* Aquí irán los estilos que añada Jose Antonio*/
 /* ya estoy aquí wey */
+.micro{
+    background-size: cover;
+    
+    
+    background-image: url('../images/travel_3.jpg');
+    height: 500px;
+}
