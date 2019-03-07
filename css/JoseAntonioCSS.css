@@ -2,8 +2,47 @@
 /* ya estoy aquí wey */
 .micro{
     background-size: cover;
-    
-    
     background-image: url('../images/travel_3.jpg');
     height: 500px;
+    padding:50px; 
+}
+.quien{
+    background-color: whitesmoke;
+    padding:50px;
+    text-align: justify;
+    width:30%;
+    height: 400px;
+  }
+.quien hr{
+    background-color: gold;
+    height: 5px;
+      width:70%;
+  }
+.quien h1{
+    font-weight: bold;
+    font-style: italic;
+   /* font-size: 1.4em;*/
+    color: darkblue;
+
+
+  } 
+.quien p{
+    color: darkblue;
+}
+
+.butto{
+    width: 100%;
+    text-align: center;
+
+}
+
+ button{
+    font-weight: bold;
+    background-color: darkblue; 
+    color:yellow;
+    font-weight: bold;
+    padding: 10px;
+    
+    
+ 
 }
