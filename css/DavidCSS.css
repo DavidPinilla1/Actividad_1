@@ -26,8 +26,7 @@ nav ul {
     list-style-type: none;
   }
 nav li {
-    font-family:;
-    font-style: italic;
+  font-style: italic;
     font-size: 1.6em;
     color: white;
     display: inline-block;
@@ -48,6 +47,19 @@ nav li {
   .contact img{
     margin-left: 9.5em;
     display: block;
+    width: 40%;
+    height: 40%
+  }
+  .barraAzul::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #73adfe;
+    transition: all ease-in-out 500ms;
+  }
+  .barraAzul:hover::before {
+    width: 83%;
   }
   .contactForm{
     padding: 0 0 0 4em;
@@ -63,6 +75,19 @@ nav li {
     margin: 0.6em;
     padding: 0.8em;
     width: 83%;
+  }
+  .contact button{
+  all:unset;
+  font-style: italic;
+  color: black;
+  background-color: #fef200;
+  font-size: 1.3em;
+  width: 25%;
+  padding:0.7em 0.1em 0.7em 0.5em;
+}
+  }
+  .fieldsWarning{
+    font-size: .7em;
   }
   /*------- Footer---------*/
   footer{
@@ -102,4 +127,21 @@ footer button{
   font-size: 1.3em;
   width: 53%;
   padding:0.4em 0.1em 0.4em 0.1em;
+}
+
+@media (max-width: 1280px) {
+footer, .contact{
+
+  flex-direction: column;
+}
+footer .ayuda, .informacion,.suscribete{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 2em;
+  }
+  
+  .ayuda{
+    padding-left: 0;
+  }
 }
