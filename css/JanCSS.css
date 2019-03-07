@@ -1,1 +1,8 @@
 /* Aquí irán los estilos que añada Jan*/
+
+.destinos {
+    display: grid;
+    grid-auto-columns: 200px;
+    grid-auto-rows: 200px;
+    
+}
