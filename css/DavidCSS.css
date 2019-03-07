@@ -10,12 +10,27 @@
 body{
   font-family: 'Arial';
   line-height: 1.6;
+  background-repeat: no-repeat;
+  background-image: url('../images/back.jpeg');
 }
 
 header{
+  padding-top: 0.5em;
   height: 32em;
-  background-repeat: no-repeat;
-  background-image: url('../images/back.jpeg');
+}
+nav{
+  padding-left: 1em;
+  background-color: rgba(0, 195, 255, 0.247);
+  top:0;
+  position: sticky;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.logo img{
+  padding:0.5em 0 0.5em;
+  display: block;
+  height: 5em;
 }
 nav ul {
     display: flex;
@@ -26,18 +41,37 @@ nav ul {
     list-style-type: none;
   }
 nav li {
-  font-style: italic;
-    font-size: 1.6em;
+    font-style: italic;
+    font-size: 1.4em;
     color: white;
-    display: inline-block;
+    display: block;
     margin-left: 45px;
     padding-top: 20px;
     list-style: none;
     position: relative;
   }
   .socialMedia{
-
+    
+    padding-top: 1.4em;
+    padding-right: 2em;
   }
+  .socialMedia img{
+    width: 2em;
+  }
+  header button{
+    
+  all:unset;
+  color: black;
+  background-color: #fef200;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.3em;
+  width: 12%;
+  padding:0.4em 0.1em 0.4em 0.1em;
+  }
+header{
+  color: white;
+}
   .contact{
     display: flex;
     flex-direction: row;
@@ -47,8 +81,6 @@ nav li {
   .contact img{
     margin-left: 9.5em;
     display: block;
-    width: 40%;
-    height: 40%
   }
   .barraAzul::before{
     content: '';
@@ -79,6 +111,7 @@ nav li {
   .contact button{
   all:unset;
   font-style: italic;
+  text-align: center;
   color: black;
   background-color: #fef200;
   font-size: 1.3em;
@@ -123,6 +156,7 @@ nav li {
 footer button{
   all:unset;
   color: black;
+  text-align: center;
   background-color: #fef200;
   font-size: 1.3em;
   width: 53%;
@@ -131,7 +165,7 @@ footer button{
 
 @media (max-width: 1280px) {
 footer, .contact{
-
+  padding: 5em;
   flex-direction: column;
 }
 footer .ayuda, .informacion,.suscribete{
