@@ -1,8 +1,29 @@
 /* Aquí irán los estilos que añada Jan*/
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+     url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+}
 
 .destinos {
-    display: grid;
-    grid-auto-columns: 200px;
-    grid-auto-rows: 200px;
-    
+    padding: 1.5em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2em;
+    padding-top: 1em;
+    height: 100em;
+}
+
+.imagenes_destinos {
+    width: 20em; height: 18em;
+    z-index: -1;
+}
+
+.texto_destinos {
+    z-index: +2;
+    font-size: 1.4em;
 }
