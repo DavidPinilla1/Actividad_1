@@ -8,7 +8,7 @@
 }
 .quien{
     background-color: whitesmoke;
-    padding:50px;
+    padding:30px;
     text-align: justify;
     width:30%;
     height: 400px;
@@ -16,18 +16,21 @@
 .quien hr{
     background-color: gold;
     height: 5px;
-      width:70%;
+    width:50%;
+    float: left;
+      
   }
 .quien h1{
     font-weight: bold;
     font-style: italic;
-   /* font-size: 1.4em;*/
+   
     color: darkblue;
 
 
   } 
 .quien p{
     color: darkblue;
+    margin:20px;
 }
 
 .butto{
