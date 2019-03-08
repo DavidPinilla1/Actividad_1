@@ -39,6 +39,7 @@
 }
 
  button{
+    all:unset;
     font-weight: bold;
     background-color: #141939; 
     color:#fdf300;

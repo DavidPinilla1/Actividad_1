@@ -21,13 +21,29 @@ nav{
   position: sticky;
   top:0;
   padding-left: 1em;
-  background-color: rgba(0, 195, 255, 0.247);
+  background-color: rgba(0, 195, 255, 0.267);
   z-index: 70;
+  background-size: cover;
+  background-image: url('../images/nav.png');
+}
+ a:hover{
+  text-decoration: none;
 }
 .logo img{
   padding:0.5em 0 0.5em;
   display: block;
+  text-shadow:2px 2px 0.1em white,3px 5px 0.5em white,-2px -2px 0.4em white;
   height: 5em;
+}
+.logo p{
+  margin: 0;
+  padding-bottom: 0.5em;
+  font-size: 1.5em;
+  line-height: 1;
+  font-weight: bold;
+  color: #141939;
+  text-shadow:2px 2px 0.1em white,3px 5px 0.5em white,-2px -2px 0.4em white;
+  text-align: center
 }
 nav ul {
     display: flex;
@@ -42,14 +58,14 @@ nav li {
     text-shadow:2px 2px 0.1em black,3px 5px 0.5em black,-2px -2px 0.4em black;
     display: block;
     margin-left: 45px;
-    padding-top: 2em;
+    padding-top: 2.5em;
     list-style: none;
     position: relative;
   }
   .socialMedia{
     
-    padding-top: 2.4em;
-    padding-right: 2em;
+    padding-top: 3em;
+    padding-right: 1.8em;
   }
   .socialMedia img{
     width: 2em;
@@ -175,13 +191,16 @@ footer button{
 }
 
 @media (max-width: 1280px) {
+  .nav{
+    
+  flex-direction: column;
+  }
 footer, .contact{
   padding: 5em;
   flex-direction: column;
 }
 footer .ayuda, .informacion,.suscribete{
   display: flex;
-  flex-direction: column;
   margin: 0 auto;
   margin-top: 2em;
   }
