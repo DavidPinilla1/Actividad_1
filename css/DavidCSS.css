@@ -15,6 +15,7 @@ body{
 }
 
 header{
+  color: white;
   padding-top: 0.5em;
   height: 32em;
 }
@@ -69,9 +70,6 @@ nav li {
   width: 12%;
   padding:0.4em 0.1em 0.4em 0.1em;
   }
-header{
-  color: white;
-}
   .contact{
     display: flex;
     flex-direction: row;
