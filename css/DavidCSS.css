@@ -20,6 +20,7 @@ nav{
   flex-direction: row;
   position: sticky;
   top:0;
+  padding-left: 1em;
   background-color: rgba(0, 195, 255, 0.247);
   z-index: 70;
 }
