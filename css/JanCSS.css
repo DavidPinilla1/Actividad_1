@@ -1,8 +1,11 @@
-/* Aquí irán los estilos que añada Jan*/
+
+/* AquÌ irán los estilos que aÒada Jan*/
 
 
 .destinos {
     text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
     background-color: #fff;
     padding: 3em 0em 1em 10em;
     color: black;
@@ -13,14 +16,45 @@
 }
 .destinos div{
     padding: 2em 0.5em 1em 0.5em;
+}.a{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../images/beijing.JPG');
+  height: 18em;
+  width: 20em;
+  position: relative;
+  z-index: 1;
 }
-.destinos div img{
-    display: block;
+.a p {
+    font-size: 1.2em;
+    text-align: left;
+    padding: 0.5em 0 0.5em 0.5em;
+    top:-1.65em;
+    left: -0.42em;;
+    margin: 0 auto;
+    position: relative;
+    color :white;
+    background-color: #141939;
+    z-index: 2;
 }
-
+.a  h3{
+    font-size: 2em;
+    font-weight: bold;
+    top:-2.55em;
+    right: -3.1em;
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+    color:black;
+    padding: 0.5em;
+    background-color: #fef200;
+    z-index: 3;
+}
 .imagenes_destinos {
+    display: block;
+    position: relative;
     width: 20em; height: 18em;
-    z-index: -1;
+    z-index: 0;
 }
 
 .texto_destinos {
