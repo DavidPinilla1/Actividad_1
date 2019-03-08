@@ -3,7 +3,7 @@
 .micro{
     background-size: cover;
     background-image: url('../images/travel_3.jpg');
-    height: 500px;
+    height: 700px;
     padding:50px; 
 }
 .quien{
@@ -11,10 +11,9 @@
     padding:30px;
     text-align: justify;
     width:30%;
-    height: 400px;
   }
 .quien hr{
-    background-color: gold;
+    background-color: #fdf300;
     height: 5px;
     width:50%;
     float: left;
@@ -23,13 +22,13 @@
 .quien h1{
     font-weight: bold;
     font-style: italic;
-   
-    color: darkblue;
+    
+    color: #141939;
 
 
   } 
 .quien p{
-    color: darkblue;
+    color: #171836;
     margin:20px;
 }
 
@@ -41,11 +40,10 @@
 
  button{
     font-weight: bold;
-    background-color: darkblue; 
-    color:yellow;
+    background-color: #141939; 
+    color:#fdf300;
     font-weight: bold;
     padding: 10px;
-    
     
  
 }
