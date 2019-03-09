@@ -1,50 +1,63 @@
 /* Aquí irán los estilos que añada Jose Antonio*/
 /* ya estoy aquí wey */
-.micro{
+.micro {
     background-size: cover;
     background-image: url('../images/travel_3.jpg');
-    height: 700px;
-    padding:50px; 
+    /*height: 500px;*/
+    padding: 50px;
 }
-.quien{
+
+.quien {
     background-color: whitesmoke;
-    padding:30px;
+    padding: 30px;
     text-align: justify;
-    width:30%;
-  }
-.quien hr{
-    background-color: #fdf300;
+    width: 40%;
+    /*height: 400px;*/
+}
+
+.quien hr {
+    background-color: gold;
     height: 5px;
-    width:50%;
+    width: 50%;
     float: left;
-      
-  }
-.quien h1{
+
+}
+
+.quien h1 {
     font-weight: bold;
     font-style: italic;
+ font-size: 2em;
+    color: darkblue;
     
-    color: #141939;
 
 
-  } 
-.quien p{
-    color: #171836;
-    margin:20px;
 }
 
-.butto{
+.quien p {
+    color: darkblue;
+   
+    padding: 2em;
+}
+
+.butto {
     width: 100%;
     text-align: center;
 
 }
 
- button{
-    all:unset;
+button {
     font-weight: bold;
-    background-color: #141939; 
-    color:#fdf300;
+    background-color: darkblue;
+    color: yellow;
     font-weight: bold;
     padding: 10px;
-    
+
+
+
+}
+@media (max-width: 1280px) {
+.quien {
+   width: 90%;
  
+}   
 }
