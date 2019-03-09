@@ -160,6 +160,14 @@ nav li {
     flex-wrap: wrap;
     margin:0 auto;
   }
+  .copyright{
+    border: solid black 0.1em;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    background-color: #141939;
+    margin:0 auto;
+  }
   footer .ayuda, .informacion,.suscribete{
   display: flex;
   flex-direction: column;
